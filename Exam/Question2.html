@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question 1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="C:/Users/krist/Documents/Exam in Oracle/Exam/javascript/q2.js"></script>
+
+	
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="Question1.html">Question 1</a></li>
+  <li><a class="active" href="Question2.html">Question 2</a></li>
+</ul>
+
+<div class="container">
+  <h2>Question 2</h2>
+  <p>Get clock angle.</p>   
+   <form>
+    <div class="form-group">
+        <label class="col-form-label">Enter Time:</label>
+        <input type="time" id="item-time" >
+		<button type="button" class="btn btn-primary" onclick="getAngle(document.getElementById('item-time').value)" >CLOCK ANGLE</button> 
+    </div>
+    <div class="form-group" id="result" style="display: none">
+       <label>The angle of</label> 
+	   <label id="time"></label>
+	   <label id="angle"></label>
+    </div>
+
+  </form>
+  
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
